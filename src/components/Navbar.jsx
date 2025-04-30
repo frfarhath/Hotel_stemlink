@@ -5,9 +5,8 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 
 const navigation = [
   { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Services", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Login", href: "#" },
+  { name: "Signup", href: "#" },
 ];
 
 export default function Example() {
@@ -30,7 +29,7 @@ export default function Example() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-800 font-medium hover:text-indigo-600 text-lg"
+                className="text-gray-800 font-medium hover:text-gray-600 text-lg"
               >
                 {item.name}
               </a>
@@ -40,7 +39,7 @@ export default function Example() {
           <div className="lg:hidden">
             <button
               onClick={() => setMobileMenuOpen(true)}
-              className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600"
+              className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900"
               aria-label="Open menu"
             >
               {/* Hamburger icon as SVG */}
