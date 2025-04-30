@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
-import { Button } from "@/components/ui/button"; // Adjust the path as necessary
 
 const navigation = [
   { name: "Home", href: "#" },

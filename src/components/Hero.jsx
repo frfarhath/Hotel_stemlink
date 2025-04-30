@@ -1,14 +1,14 @@
 'use client'  
 
 import { Button } from '@/components/ui/button'   
-import heroImage from '@/assets/images/2.jpeg' 
+import img1 from "../assets/images/1.jpg";
 
 export function Hero() {  
   return (  
     <section  
     className="relative flex items-center justify-center min-h-screen bg-cover bg-center px-4 sm:px-6 lg:px-8"  
     style={{  
-      backgroundImage: `url(${heroImage.src})`, // Use template literal and src property  
+      backgroundImage: `url(${img1.src})`, 
       backgroundSize: 'cover',  
       backgroundPosition: 'center',  
     }}  
